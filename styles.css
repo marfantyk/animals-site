@@ -1,0 +1,14 @@
+body{
+    background: rgb(58,173,180);
+    background: linear-gradient(90deg, rgba(58,173,180,0.4318102240896359) 0%, rgba(29,210,253,0.2637429971988795) 50%, rgba(69,252,225,0.20211834733893552) 100%);
+}
+.cloud{
+
+}
+.cloud:hover{
+    transform: scale(1.5);
+}
+
+@keyframes scale {
+    50%  { transform: scale(1.5); }
+  }
