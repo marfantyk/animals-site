@@ -22,6 +22,7 @@ body{
     height:100%;
 }
 .background{
+    display: none;
     position: relative;
     width: 60vw;
     height: 34vw;
