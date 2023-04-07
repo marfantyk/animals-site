@@ -5,13 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script src="script.js" async></script>
     <title>Animals</title>
 </head>
 <body>
-    <img class='cloud' src="images/cloud1.png" alt="cloud">
-    <img class='cloud' src="images/cloud2.png" alt="cloud">
-    <img class='cloud' src="images/cloud3.png" alt="cloud">
+    <div class="cloud_container">
+        <img draggable="false" id="experiment_cloud" class='cloud' src="images/cloud1.png" alt="cloud">
+        <img draggable="false" class='cloud1 cloud cloud-pop' src="images/cloud2.png" alt="cloud">
+        <img draggable="false" class='cloud' src="images/cloud3.png" alt="cloud">
+        <h1 style="display: none;">Animals</h1>
+    </div>
+    <div class="background">
+        <div class="pop-up-window">
+            <img class="image_of_animal" draggable="false" src="images/animal1.jpg">
+            <section>
+                <h2>Beautiful animal</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </section>
+        </div>
+        <img class="cross" id="x"src="images/cross-sign-svgrepo-com.svg" alt="cross to close the window">
+</div>
 
 </body>
 </html>
