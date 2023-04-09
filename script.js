@@ -25,9 +25,8 @@ for (let i = 0; i < clouds.length; i++){
             click = 1;
         }
         let x = document.getElementById("x")
+        x.previousSibling.previousSibling.firstChild.nextSibling.src = "images/animal" + click + ".jpg"
         x.parentElement.style.display="block";
         x.parentElement.classList.add("appearing");
-        console.log(click)
-        x.previousSibling.previousSibling.firstChild.nextSibling.src = "images/animal" + click + ".jpg"
     }
 }
